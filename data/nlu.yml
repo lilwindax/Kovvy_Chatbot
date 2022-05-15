@@ -1,0 +1,220 @@
+version: "3.0"
+
+nlu:
+
+#- intent: GiveDetails
+#  examples: |
+#    - give details
+#    - I would like to give you my details
+#    - details
+#    - i want to give you my details
+#    - here are my details
+#
+#- intent: UsersName
+#  examples: |
+#    - Rawinder
+#    - John
+#    - Katey
+#    - Abigial
+#
+#- intent: UsersLastName
+#  examples: |
+#    - Singh
+#    - Brick
+#    - Sanders
+#    - Walters
+#
+#- intent: NHI_Number
+#  examples:
+#    - RAH1353
+#    - SDF3562
+#    - HEG8647
+#    - FJT9956
+
+- intent: Booking_Vaccination
+  examples: |
+    - I would like to book for a vaccine
+    - I would like to book for a vaccination
+    - Book vaccination
+    - I wanna book my vaccination
+    - I want to book my vaccination
+    - Book
+
+- intent: Affirm
+  examples: |
+    - Yes I would like to
+    - Sure
+    - Sounds good to me
+    - Cool
+
+- intent: Affirm_Booking_Vaccination
+  examples: |
+    - Sure. I would like to book for a vaccination
+    - Yes. I want to book for my vaccination
+    - Cool. Book vaccination
+
+- intent: Vaccination
+  examples: |
+    - I have a question about the vaccine
+    - Is the vaccine safe?
+    - What is the in the vaccination?
+    - What are the vaccine ingredients?
+    - Vaccine adminstration
+    - Vaccine storage
+    - Can I have more information about the Vaccine?
+
+- intent: Current_Cases
+  examples: |
+    - How many cases where there today?
+    - Covid cases today?
+    - What is the number of cases today?
+    - Covid cases
+    - cases
+    - case number
+    - Current cases
+
+- intent: alertlevel
+  examples: |
+    - what is the current alert level?
+    - what is the current alert level
+    - alert level
+    - which alert level are we on?
+
+- intent: Auckland
+  examples: |
+    - I am in Auckland
+    - I am based in Auckland
+    - Auckland
+    - I am located in Auckland
+
+- intent: Hamilton
+  examples: |
+    - I am in Hamilton
+    - I am based in Hamilton
+    - Hamilton
+    - I am located in Hamilton
+
+- intent: Northland
+  examples: |
+    - I am in Northland
+    - I am based in Northland
+    - Northland
+    - I am located in Northland
+
+- intent: Wellington
+  examples: |
+    - I am in Wellington
+    - I am based in Wellington
+    - Wellington
+    - I am located in Wellington
+
+- intent: Christchurch
+  examples: |
+    - I am in Christchurch
+    - I am based in Christchurch
+    - Christchurch
+    - I am located in Christchurch
+
+- intent: Dunedin
+  examples: |
+    - I am in Dunedin
+    - I am based in Dunedin
+    - Dunedin
+    - I am located in Dunedin
+
+- intent: Isolation
+  examples: |
+    - What are the current Isolations rules?
+    - Isolations
+    - What are the rules of Isolation?
+    - isolation
+    - Isolation rules
+
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?

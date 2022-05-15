@@ -1,0 +1,118 @@
+version: "3.0"
+
+intents:
+  - Auckland
+  - alertlevel
+  - greet
+  - goodbye
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - Isolation
+  - Hamilton
+  - Northland
+  - Wellington
+  - Christchurch
+  - Dunedin
+  - Vaccination
+  - Current_Cases
+  - Booking_Vaccination
+  - Affirm
+  - Affirm_Booking_Vaccination
+  - UsersName
+  - UsersLastName
+  - NHI_Number
+  - GiveDetails
+
+entities:
+  - choice
+
+#forms:
+#  details_form:
+#    first_name:
+#    - type: from_text
+#    last_name:
+#    - type: from_text
+#    NHI_number:
+#    - type: from_text
+#
+#slots:
+#  first_name:
+#    type: text
+#  last_name:
+#    type: text
+#  NHI_number:
+#    type: text
+
+responses:
+
+  utter_Booking_Vaccination:
+  - text: "Can you please provide me with the following details: FirstName, LastName, DateOfBirth."
+
+  utter_Affirm:
+  - text: "Awesome, thank you for caring about the safety of yourself and everyone around you."
+
+  utter_Affirm_Booking_Vaccination:
+  - text: "Great, lets get started."
+  - text: "Can you please give me the following details: FirstName, LastName, DateOfBirth."
+
+  utter_Vaccination:
+  - text: "Firstly, thank you for taking the time out to research about the Vaccine. Please check out information on the Minstry of Health official [website](https://www.health.govt.nz/covid-19-novel-coronavirus/covid-19-vaccines)"
+
+  utter_Isolation:
+  - text: "The isolation period for COVID-19 cases in the community is 7 days. If you are still unwell, stay home."
+
+  utter_Current_Cases:
+  - text: "You can check out this current case of COVID-19 in New Zealand at the following [link](https://www.health.govt.nz/covid-19-novel-coronavirus/covid-19-data-and-statistics/covid-19-current-cases)"
+
+  utter_Auckland:
+  - text: "Ah the city of Sails, lucky you. Auckland is currently in the Orange Traffic Light state, and in phase 3 of the Omicron response. [Link](https://www.health.govt.nz/covid-19-novel-coronavirus/covid-19-response-planning/omicron-community-what-means-you)"
+
+  utter_Hamilton:
+  - text: "Hamilton is currently in the Orange Traffic Light state, and in phase 3 of the Omicron response. [Link](https://www.health.govt.nz/covid-19-novel-coronavirus/covid-19-response-planning/omicron-community-what-means-you)"
+
+  utter_Northland:
+  - text: "Northland is currently in the Orange Traffic Light state, and in phase 3 of the Omicron response. [Link](https://www.health.govt.nz/covid-19-novel-coronavirus/covid-19-response-planning/omicron-community-what-means-you)"
+
+  utter_Wellington:
+    - text: "Wellington is currently in the Orange Traffic Light state, and in phase 3 of the Omicron response. [Link](https://www.health.govt.nz/covid-19-novel-coronavirus/covid-19-response-planning/omicron-community-what-means-you)"
+
+  utter_Christchurch:
+  - text: "Christchurch is currently in the Orange Traffic Light state, and in phase 3 of the Omicron response. [Link](https://www.health.govt.nz/covid-19-novel-coronavirus/covid-19-response-planning/omicron-community-what-means-you)"
+
+  utter_Dunedin:
+  - text: "Dunedin is currently in the Orange Traffic Light state, and in phase 3 of the Omicron response. [Link](https://www.health.govt.nz/covid-19-novel-coronavirus/covid-19-response-planning/omicron-community-what-means-you)"
+
+  utter_alertlevel:
+  - text: "Which region are you located in?"
+
+  utter_greet:
+  - text: "Hi there, my name is Kovvy and I am a FAQ ChatBot here to assist you with Covid-19 related quires. I can assist you with info around Alert levels, Daily cases, and Vaccination info. How may I help?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://225508-687545-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2021/12/Hasbulla-with-a-cat.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_submit:
+  - text: "Ok. Thanks!"
+
+  utter_slots_values:
+  - text: "Your recorded details are: (first_name, last_name, NHI_Number)"
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

@@ -1,0 +1,116 @@
+version: "3.0"
+
+stories:
+
+- story: UsersName
+  steps:
+    - intent: UsersName
+
+- story: Affirm_Booking_Vaccination
+  steps:
+  - intent: Affirm_Booking_Vaccination
+  - action: utter_Affirm_Booking_Vaccination
+
+- story: Booking_Vaccination
+  steps:
+  - intent: Booking_Vaccination
+  - action: utter_Booking_Vaccination
+
+- story: Affirm
+  steps:
+  - intent: Affirm
+  - action: utter_Affirm
+
+- story: Current_Cases
+  steps:
+  - intent: Current_Cases
+  - action: utter_Current_Cases
+
+- story: Vaccination
+  steps:
+  - intent: Vaccination
+  - action: utter_Vaccination
+
+- story: Isolation
+  steps:
+  - intent: Isolation
+  - action: utter_Isolation
+
+- story: Auckland
+  steps:
+  - intent: Auckland
+  - action: utter_Auckland
+
+- story: Hamilton
+  steps:
+  - intent: Hamilton
+  - action: utter_Hamilton
+
+- story: Northland
+  steps:
+  - intent: Northland
+  - action: utter_Northland
+
+- story: Wellington
+  steps:
+  - intent: Wellington
+  - action: utter_Wellington
+
+- story: Christchurch
+  steps:
+  - intent: Christchurch
+  - action: utter_Christchurch
+
+- story: Dunedin
+  steps:
+  - intent: Dunedin
+  - action: utter_Dunedin
+
+- story: alert level
+  steps:
+  - intent: alertlevel
+  - action: utter_alertlevel
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+
+#- story: interactive_story
+#  steps:
+#  - intent: greet
+#  - action: utter_greet
+#  - intent: request_details
+#  - action: details_form
+#  - active_loop: details_form
+#  - slot_was_set:
+#    - requested_slot: first_name
+#  - slot_was_set:
+#    - first_name: Rawinder
+#  - slot_was_set:
+#    - requested_slot: last_name
+#  - slot_was_set:
+#    - last_name: Rawinder-Singh
+#  - slot_was_set:
+#    - requested_slot: null
+#  - active_loop: null
+#  - action: utter_submit
+#  - action: utter_slots_values
