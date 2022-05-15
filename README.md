@@ -12,7 +12,7 @@ Installations:
 	- Python Version: 3.8 or 3.7 (https://www.python.org/downloads/)
 
 
-Commands in Anaconda Promt: 
+Commands in Anaconda Prompt: 
 
 	- conda create --name KovvyChatbot python==3.8
 	- conda activate KovvyChatbot 
