@@ -1,6 +1,8 @@
 # KovvyChatbot
 Covid-19 FAQ Chatbot - New Zealand
 
+![alt text](https://github.com/[lilwindax]/[KovvyChatbot]/Images/Main.png?raw=true)
+
 Installations: 
 
 	- IDE: PyCharm (https://www.jetbrains.com/pycharm/download/#section=windows)
