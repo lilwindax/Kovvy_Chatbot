@@ -1,7 +1,7 @@
 ### KovvyChatbot
 Covid-19 FAQ Chatbot - New Zealand
 
-![alt text](https://github.com/[lilwindax]/[KovvyChatbot]/Images/Main.png?raw=true)
+<img width="569" alt="Main" src="https://user-images.githubusercontent.com/72056829/175912025-f5a715aa-f0ae-460c-a905-2086db941e54.png">
 
 Installations: 
 
