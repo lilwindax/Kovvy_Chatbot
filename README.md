@@ -57,23 +57,8 @@ rawinder457@gmail.com
 
 # Disclaimer
 
-The Content has been made available for informational and educational purposes only. We do not make any representation or warranties with respect to the accuracy, applicability, fitness, or completeness of the Content. We do not warrant the performance, effectiveness or applicability of any sites listed or linked to in any Content.
+The Content has been made available for informational and educational purposes only. The author does not make any representation or warranties with respect to the accuracy, applicability, fitness, or completeness of the Content. The author does not warrant the performance, effectiveness or applicability of any sites listed or linked to in any Content.
 
 The Content is not intended to be a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition. Never disregard professional medical advice or delay in seeking it because of something you have read or seen on the Site.
 
-We hereby disclaims any and all liability to any party for any direct, indirect, implied, punitive, special, incidental or other consequential damages arising directly or indirectly from any use of the Content, which is provided as is, and without warranties.
-
- 
-
-
-# Policy: 
-
-TED Policy#
-The Transformer Embedding Dialogue (TED) Policy is a multi-task architecture for next action
-prediction and entity recognition. The architecture consists of several transformer encoders
-which are shared for both tasks. A sequence of entity labels is predicted through a Conditional 
-Random Field (CRF) tagging layer on top of the user sequence transformer encoder output
-corresponding to the input sequence of tokens. For the next action prediction, the dialogue
-transformer encoder output and the system action labels are embedded into a single semantic 
-vector space. We use the dot-product loss to maximize the similarity with the target label and
-minimize similarities with negative samples.
+The author hereby disclaims any and all liability to any party for any direct, indirect, implied, punitive, special, incidental or other consequential damages arising directly or indirectly from any use of the Content, which is provided as is, and without warranties.
