@@ -30,6 +30,9 @@ Running system:
 	- Open Google Chrome browser 
 	- Paste local path of index.html file and run
 	
+<img width="1020" alt="Demo" src="https://user-images.githubusercontent.com/72056829/175914292-9b7fe50b-8614-4611-a206-4cd20c2df3c1.png">
+
+
 
 Societies’ dependence on data is expanding daily, and as this happens the platform’s data is accessible through becoming increasingly complex. Artificial Intelligence-powered Chatbots have recently become a critical tool for businesses and organizers to assist their users with answering questions, arranging items, providing service, retrieving data, or making API calls such as subscriptions. This report will focus on a recently develop Chatbot – Kovvy. It will cover the intent, domain service, user cases, dialogue flow, deployment policy, limitations, and improvements made to the Chatbot implementation.
 
