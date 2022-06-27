@@ -49,12 +49,6 @@ To ensure that Kovvy caters to its users and follows the Human-Centered Design p
 Kovvy is designed as a user-initiated chatbot thus it requires users to ask questions, to which it responds with clear and concise answers. First and foremost, Kovvy is designed to provide up-to-date information about Covid-19 in New Zealand. This is information such as current alert level, isolation rules, daily case numbers count, and guidance to Government approved scientific information regarding the SARS-CoV-2 mRNA vaccine. Secondly, Kovvy can assist users by providing them the ability to book in for a vaccination session. Finally, Kovvy will act as a companion in these challenging times and be able to cheer up the users.
 
 
-# Author details
-Rawinder Singh 
-
-rawinder457@gmail.com
-
-
 # Disclaimer
 
 The Content has been made available for informational and educational purposes only. The author does not make any representation or warranties with respect to the accuracy, applicability, fitness, or completeness of the Content. The author does not warrant the performance, effectiveness or applicability of any sites listed or linked to in any Content.
@@ -62,3 +56,9 @@ The Content has been made available for informational and educational purposes o
 The Content is not intended to be a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition. Never disregard professional medical advice or delay in seeking it because of something you have read or seen on the Site.
 
 The author hereby disclaims any and all liability to any party for any direct, indirect, implied, punitive, special, incidental or other consequential damages arising directly or indirectly from any use of the Content, which is provided as is, and without warranties.
+
+
+# Author details
+Rawinder Singh 
+
+rawinder457@gmail.com
