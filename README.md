@@ -33,7 +33,7 @@ Running system:
 <img width="1020" alt="Demo" src="https://user-images.githubusercontent.com/72056829/175914292-9b7fe50b-8614-4611-a206-4cd20c2df3c1.png">
 
 
-
+# Introduction
 Societies’ dependence on data is expanding daily, and as this happens the platform’s data is accessible through becoming increasingly complex. Artificial Intelligence-powered Chatbots have recently become a critical tool for businesses and organizers to assist their users with answering questions, arranging items, providing service, retrieving data, or making API calls such as subscriptions. This report will focus on a recently develop Chatbot – Kovvy. It will cover the intent, domain service, user cases, dialogue flow, deployment policy, limitations, and improvements made to the Chatbot implementation.
 
 Kovvy is a personal FAQ-based Chatbot that is designed to represent the Ministry of Health NZ. Its purpose is to remove users’ dependency on human-powered call centers and to provide relative Covid-19 related information concisely. Current alternatives have become overwhelmingly complex and overwhelming as there is an information overload. One search about a simple question such as “What are the daily case numbers?” has hundreds of results. Alongside this, the rules and regulations issued by the New Zealand government are changing rapidly to deal with the recent Omicron outbreak. This has meant these rules and regulations are hard to keep track of for users.
