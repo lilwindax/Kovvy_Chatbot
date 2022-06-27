@@ -1,4 +1,4 @@
-###KovvyChatbot
+### KovvyChatbot
 Covid-19 FAQ Chatbot - New Zealand
 
 <img width="1020" alt="Main" src="https://user-images.githubusercontent.com/72056829/175912025-f5a715aa-f0ae-460c-a905-2086db941e54.png">
