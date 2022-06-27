@@ -1,5 +1,5 @@
 # KovvyChatbot
-Covid-19 FAQ Chatbot - New Zealand
+## Covid-19 FAQ Chatbot - New Zealand
 
 <img width="1020" alt="Main" src="https://user-images.githubusercontent.com/72056829/175912025-f5a715aa-f0ae-460c-a905-2086db941e54.png">
 
@@ -55,7 +55,7 @@ Rawinder Singh
 rawinder457@gmail.com
 
 
-## Disclaimer
+# Disclaimer
 
 The Content has been made available for informational and educational purposes only. We do not make any representation or warranties with respect to the accuracy, applicability, fitness, or completeness of the Content. We do not warrant the performance, effectiveness or applicability of any sites listed or linked to in any Content.
 
@@ -66,7 +66,7 @@ We hereby disclaims any and all liability to any party for any direct, indirect,
  
 
 
-Policy: 
+# Policy: 
 
 TED Policy#
 The Transformer Embedding Dialogue (TED) Policy is a multi-task architecture for next action
